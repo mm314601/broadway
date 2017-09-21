@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+}
+
+/*There's a lot going on with this header.*/
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/*Everything here is centered. But what if I decide it shouldn't be?*/
+.link_to_nowhere {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+/*Many things are centered, so I had to make a choice: do I make one "centered"
+class and apply it to all of them, or do I add "text-align: center" to each of
+them one at a time? I feel that this is the better choice, since I can adjust
+whether or not something is centered from within the html instead of the css
+using this method.*/
+.centered {
+  text-align: center;
+}
+
+/*There's no good word for right-aligned. "right-aligned" is two words.*/
+.righted {
+  text-align: right;
+}
+
+/*There are two pieces of text that use this formatting.*/
+.descriptive {
+  font-family: Verdana;
+  font-size: 21px;
+  color: Gray;
+}
+
+/*There's only two links in this thing and they're both this color.*/
+a {
+  color: white;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: gray;
+  font-size: 42px;
+}
