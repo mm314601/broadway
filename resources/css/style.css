@@ -34,9 +34,21 @@ using this method.*/
 
 /*There are two pieces of text that use this formatting.*/
 .descriptive {
-  font-family: Verdana;
-  font-size: 21px;
+  font-family: Helvetica;
+  font-size: 14px;
   color: Gray;
+}
+
+.hasbackground {
+  background-image: url("../images/the-flatiron-building.png")
+}
+
+.smalltext{
+  font-size:11px;
+}
+
+.white{
+  color: white;
 }
 
 /*There's only two links in this thing and they're both this color.*/
@@ -49,4 +61,22 @@ h2 {
   font-weight: bold;
   color: gray;
   font-size: 42px;
+  text-align: center;
+}
+
+h3{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: gray;
+  font-size: 23px;
+  text-align: center;
+}
+
+h4{
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color:dimgray;
+  color: white;
+  font-size: 11px;
+  text-align: left;
 }
